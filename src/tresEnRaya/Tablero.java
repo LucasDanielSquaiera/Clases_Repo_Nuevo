@@ -30,10 +30,11 @@ public class Tablero {
 			System.out.println();
 		}
 	}
+	
 	public boolean hayGanador() {
-		//divide y vencerás
 		return comprobarColumnas() || comprobarFilas() || comprobarDiagonalPrincipal() || comprobarDiagonalInversa();
 	}
+	
 	
 	private boolean comprobarColumnas() {
 		for(int j = 0;j<dimension;j++){
@@ -149,6 +150,8 @@ public class Tablero {
 		casillas[f][c] = ficha;	
 		return true;
 		}
+
+	
 		
 	
 	
