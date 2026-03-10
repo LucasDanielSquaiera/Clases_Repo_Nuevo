@@ -17,12 +17,13 @@ public class AppStreamMaster {
 		
 		
 		pe.añadirPerfil(estan);
+		
 		pe.añadirPerfil(estu);
 	
 	
-	System.out.println("Número de perfiles en " + pe.getNombreUsuario());
-		pe.getPerfiles();
 	
+	System.out.println("Número de perfiles en " + pe.getNombreUsuario() );
+		
 	
 	}
 
