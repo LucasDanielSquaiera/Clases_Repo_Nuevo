@@ -22,7 +22,7 @@ public class MultipleCatch {
 			System.out.println("Error, eso no es un número!");
 		}
 		 
-
+sc.close();
 	}
 
 }
