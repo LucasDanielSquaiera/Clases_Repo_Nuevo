@@ -8,11 +8,10 @@ public class ImagenJPG extends Imagen {
 
 	@Override
 	public boolean isValid() {
-		long resolucionValida = 5000000;
 		
-		if (this.getHeight() * this.getWidth() <= resolucionValida) {
+		if (this.getHeight() * this.getWidth() <= 5000000 ) {
 			return true;
-		} else {
+		} 
 			return false;
 		}
 	}
@@ -20,4 +19,4 @@ public class ImagenJPG extends Imagen {
 
 	
 	
-}
+

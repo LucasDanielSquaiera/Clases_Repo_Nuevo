@@ -10,9 +10,9 @@ public class DocumentoPDF extends Documento {
 	public boolean isValid() {
 		if (this.getSize() < 1048576) {
 			return true;
-		} else {
+		} 
 		return false;
-		}
+		
 	}
 
 }

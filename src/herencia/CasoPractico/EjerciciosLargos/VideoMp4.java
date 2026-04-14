@@ -11,9 +11,9 @@ public class VideoMp4 extends Video{
 		
 		if (this.getLenght() < 300) {
 			return true;
-		} else {
+		} 
 			return false;
-		}
+		
 	}
 	
 }
