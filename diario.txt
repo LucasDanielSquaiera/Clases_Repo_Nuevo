@@ -1,0 +1,2 @@
+[2026-04-15] Entrada: Hola[2026-04-15] Entrada: hola
+[2026-04-15] Entrada: Hola!
